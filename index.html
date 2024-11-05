@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Vivek</title>
+</head>
+<body>
+<!--==================== STYLE SWITCHER ====================-->
+<input type="radio" name="color" id="color-1"/>
+<input type="radio" name="color" id="color-2"/>
+<input type="radio" name="color" id="color-3"/>
+<input type="radio" name="color" id="color-4"/>
+<input type="radio" name="color" id="color-5"/>
+<input type="radio" name="color" id="color-6"/>
+<input type="radio" name="color" id="color-7"/>
+<input type="radio" name="color" id="color-8"/>
+<input type="radio" name="color" id="color-9"/>
+<input type="radio" name="color" id="color-10"/>
+<input type="checkbox" id="toggler">
+<input type="checkbox" id="day-night">
+
+
+<div class="style__switcher">
+    <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+    </label>
+    <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+    </label>
+    <h3 class="style__switcher-title">Theme Colors</h3>
+
+    <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+    </div>
+</div>
+<!--==================== HEADER ====================-->
+<header class="header">
+    <nav class="nav container">
+        <a href="index.html" class="nav__logo">Vivek</a>
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#home" class="nav__link active-link ">Home</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#about" class="nav__link ">About</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#qualification" class="nav__link ">Qualification</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#skills" class="nav__link ">Skills</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#works" class="nav__link ">Project</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="#contact" class="nav__link ">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+        <div class="home__container container grid">
+            <div class="home__content">
+                <span class="home__small">Hello</span>
+                <h1 class="home__title"><span>I'M</span>Vivek <br/>
+                    a <span>Web Developer</span>
+                </h1>
+                <p class="home__discription">Welcome to my portfolio! I’m a dedicated web developer with a passion for
+                    creating dynamic and responsive websites. Here, you’ll find a showcase of my projects, highlighting
+                    my skills in coding, design, and problem-solving. Explore my work and see how I bring innovative
+                    ideas in code.</p>
+                <div class="home__btns">
+                    <a href="#contact" class="btn">Contect Me</a>
+                </div>
+            </div>
+            <div class="home__img-wrapper">
+                <img src="./img/IMG20230907135224.jpg" alt="" class="home__img" height="396px" width="330px">
+            </div>
+        </div>
+
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__img-wrapper">
+                <img src="img/3.jpg" alt="" class="about__img" width="80%">
+                <img src="img/3.jpg" alt="" class="about__img" width="80%">
+                <img src="img/3.jpg" alt="" class="about__img" width="80%">
+                <img src="img/3.jpg" alt="" class="about__img" width="80%">
+
+            </div>
+            <div class="about_content">
+                <h2 class="section_title" data-title="who am i?">
+                    I'm vivek chudasama an web Developer
+                </h2>
+                <p class="about__discription">
+                    Hello! I’m Vivek Chudasama, a 3rd-year B.Tech in Information Technology student at Marwadi
+                    University, Rajkot. My journey in the world of technology has been both exciting and transformative,
+                    and I’d love to share a bit about myself and my experiences in tech.
+                </p>
+
+                <ul class="about__data grid">
+                    <li class="data__item">
+                        <h3 class="data__title">Name:</h3>
+                        <span class="data__dicription">Vivek Chudasama</span>
+                    </li>
+
+                    <li class="data__item">
+                        <h3 class="data__title">Age:</h3>
+                        <span class="data__dicription">20 Years</span>
+                    </li>
+
+                    <li class="data__item">
+                        <h3 class="data__title">From:</h3>
+                        <span class="data__dicription">Rajkot , Gujarat</span>
+                    </li>
+
+                    <li class="data__item">
+                        <h3 class="data__title">Email:</h3>
+                        <span class="data__dicription">vivekchudasama170@gmail.com</span>
+                    </li>
+                </ul>
+                <div class="about__bottom">
+                    <a href="" class="btn">Download Cv</a>
+                    <div class="about__social-links">
+                        <a href="https://github.com/vivekchudasama-2004/vivekchudasama-2004" class="about__social-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/vivek-chudasama-2367ba254/" class="about__social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification" id="qualification">
+        <h2 class="section_title title-center" data-title="QUALIFICATION">
+            Education
+        </h2>
+        <div class="container-qualification container grid">
+            <div class="degree-card">
+                <div class="logo-section">
+                    <img src="./img/mu-big-logo-300x83.png" alt="Logo">
+                </div>
+                <div class="info-section">
+                    <div class="title">
+                        <h2 class="qualification-title">Marwadi University</h2>
+                        <h3 class="qualification_sub_title">Rajkot Gujarat</h3>
+                    </div>
+                    <div class="year">2016 - 2020</div>
+                    <div class="details">
+                        <div class="details">B.Tech. in Computer Engineering</div>
+                        <ul>
+                            <li>I am currently pursuing my B.Tech in Information Technology at Marwadi University,
+                                Rajkot. My academic journey here has been enriching and transformative,providing me with
+                                a solid foundation in IT principles and practices.
+                            </li>
+                            <li>I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI
+                                etc.
+                            </li>
+                            <li>Apart from this, I have done courses on Data Science, Artificial Intelligence and Full
+                                Stack Development.
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="https://www.marwadiuniversity.ac.in/" class="btn qualification-btn">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="degree-card">
+                <div class="logo-section">
+                    <img src="./img/Logo.png" alt="Logo">
+                </div>
+                <div class="info-section">
+                    <div class="title">
+                        <h2 class="qualification-title">New Era School</h2>
+                        <h3 class="qualification_sub_title">Rajkot Gujarat</h3>
+                    </div>
+                    <div class="year">2016 - 2020</div>
+                    <div class="details">
+                        <div class="details">5TH - 12Th(Science)</div>
+                        <ul>
+                            <li>I completed my secondary and higher secondary education at New Era English Medium School
+                                in Rajkot. My time here was instrumental in
+                                shaping my academic foundation and igniting my passion for technology and innovation.
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="" class="btn qualification-btn">Visit Site</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section_title title-center">
+                Certification
+            </h2>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src="img/cer1.png" alt="" class="work__img"/>
+                    <div class="work__details">
+                        <h3 class="work__title">Certificate</h3>
+                        <span class="work__description">This is short description</span>
+                    </div>
+                    <div>
+                        <p class="title title-center certification_title">Google Cloud</p>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/cer2.png" alt="" class="work__img"/>
+                    <div class="work__details">
+                        <h3 class="work__title">Certificate</h3>
+                        <span class="work__description">This is short description</span>
+                    </div>
+                    <div>
+                        <p class="title title-center certification_title">DeepLearning.AI</p>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/cer3.png" alt="" class="work__img"/>
+                    <div class="work__details">
+                        <h3 class="work__title">Certificate</h3>
+                        <span class="work__description">This is short description</span>
+                    </div>
+                    <div>
+                        <p class="title title-center certification_title">IBM</p>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/cer4.png" alt="" class="work__img"/>
+                    <div class="work__details">
+                        <h3 class="work__title">Certificate</h3>
+                        <span class="work__description">This is short description</span>
+                    </div>
+                    <div>
+                        <p class="title title-center certification_title">Linkedin Learning</p>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="img/cer5.png" alt="" class="work__img" height="278px"/>
+                    <div class="work__details">
+                        <h3 class="work__title">Certificate</h3>
+                        <span class="work__description">This is short description</span>
+                    </div>
+                    <div>
+                        <p class="title title-center certification_title">Open Waver</p>
+                    </div>
+                </div>
+
+
+                <div class="work__card">
+                    <img src="img/cer6.png" alt="" class="work__img"/>
+
+                    <div class="work__details">
+                        <h3 class="work__title">Certificate</h3>
+                        <span class="work__description">This is short description</span>
+                    </div>
+                    <div>
+                        <p class="title title-center certification_title">Oracle</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+        <h2 class="section_title title-center" data-title="Skills">
+            Technical Proficiency
+        </h2>
+        <div>
+            <div class="all container grid">
+                <div class="skill-section">
+                    <button class="button" id="frontend-button">Frontend</button>
+                    <button class="button" id="backend-button">Backend</button>
+                    <button class="button" id="tools-button">Tools</button>
+                    <button class="button" id="soft-skills-button">Soft Skills</button>
+                </div>
+                <div class="content-section">
+                    <div id="frontend-content" class="content" style="display: none;">
+                        <h2>Frontend Skills</h2>
+                        <hr>
+                        <div class="tool-list">
+                            <div class="tool-item">
+                                <p>HTML</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>CSS</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>React</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>JavaScript</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="backend-content" class="content" style="display: none;">
+                        <h2>Backend Skills</h2>
+                        <hr>
+                        <div class="tool-list">
+                            <div class="tool-item">
+                                <p>Node.js</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>Express.js</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>Database Management</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>Database Management</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tools-content" class="content">
+                        <h2>Tools</h2>
+                        <hr>
+                        <div class="tool-list">
+                            <div class="tool-item">
+                                <p>Git & GitHub</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>Visual Studio Code</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>Webpack</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>Responsive Design</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="soft-skills-content" class="content" style="display: none;">
+                        <h2>Soft Skills</h2>
+                        <hr>
+                        <div class="tool-list">
+                            <div class="tool-item">
+                                <p>Problem-solving</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>Collaboration</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>Attention to Detail</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <p>Attention to Detail</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== Project ====================-->
+    <section class="works section" id="works">
+        <h2 class="section_title title-center" data-title="My Project">
+            Recent Works
+        </h2>
+        <div class="work__container container grid">
+            <div class="work__card">
+                <img src="img/project-img-1.jpg" alt="" class="work__img"/>
+                <div class="work__details">
+                    <h3 class="work__title">Web Development</h3>
+                    <span class="work__description">This is short description</span>
+                </div>
+            </div>
+
+            <div class="work__card">
+                <img src="img/project-img-2.jpg" alt="" class="work__img"/>
+                <div class="work__details">
+                    <h3 class="work__title">App Development</h3>
+                    <span class="work__description">This is short description</span>
+                </div>
+            </div>
+
+            <div class="work__card">
+                <img src="img/project-img-3.jpg" alt="" class="work__img"/>
+                <div class="work__details">
+                    <h3 class="work__title">Photoshop</h3>
+                    <span class="work__description">This is short description</span>
+                </div>
+            </div>
+
+            <div class="work__card">
+                <img src="img/project-img-4.jpg" alt="" class="work__img"/>
+                <div class="work__details">
+                    <h3 class="work__title">UI/UX design</h3>
+                    <span class="work__description">This is short description</span>
+                </div>
+            </div>
+
+            <div class="work__card">
+                <img src="img/project-img-5.jpg" alt="" class="work__img"/>
+                <div class="work__details">
+                    <h3 class="work__title">App Development</h3>
+                    <span class="work__description">This is short description</span>
+                </div>
+            </div>
+
+            <div class="work__card">
+                <img src="img/project-img-6.jpg" alt="" class="work__img"/>
+                <div class="work__details">
+                    <h3 class="work__title">Web Development</h3>
+                    <span class="work__description">This is short description</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+        <h2 class="section_title title-center" data-title="Get In Touch">
+            Contact Me
+        </h2>
+
+        <div class="contact__container container grid">
+            <div class="contact__details">
+                <div class="contact__item">
+                    <i class="fa-solid fa-phone contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Call on</h3>
+                        <span class="contact__data">+91 9974119238</span>
+                    </div>
+                </div>
+
+                <div class="contact__item">
+                    <i class="fa-solid fa-envelope contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Email on</h3>
+                        <span class="contact__data">Vivekchudasama170@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="contact__item">
+                    <i class="fa-solid fa-location-dot contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Address</h3>
+                        <span class="contact__data">Rajkot , Gujarat</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <form action="" class="contact__form">
+                <div class="form__group">
+                    <div class="form__input">
+                        <input type="text" placeholder="Name" class="input__control"/>
+                    </div>
+
+                    <div class="form__input">
+                        <input type="email" placeholder="Email" class="input__control"/>
+                    </div>
+                </div>
+
+                <div class="form__input">
+                    <input type="text" placeholder="Subject" class="input__control"/>
+                </div>
+
+                <div class="form__input">
+                    <textarea name="" id="" placeholder="Message" cols="30" rows="10"
+                              class="input__control textarea"></textarea>
+                </div>
+                <button class="btn contact__btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__social-links">
+            <a href="" class="footer__social-linkss">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="" class="footer__social-link">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+        <p class="footer_copyright" style="color: hsl(0,0%,69%)">&copy;2024 Vivek Chudasama.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
