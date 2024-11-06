@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is the repository for my personal portfolio website, built using HTML, CSS, and JavaScript. The website showcases my skills, projects, and contact information and serves as a central hub for connecting with potential employers, collaborators, or anyone interested in my work.
+This is the repository for my personal portfolio website, built using HTML, CSS. The website showcases my skills, projects, and contact information and serves as a central hub for connecting with potential employers, collaborators, or anyone interested in my work.
 
 ## Table of Contents
 
@@ -24,8 +24,7 @@ Visit the live website here: [vivekchudasama-2004.github.io/portfolio](https://v
 
 - **HTML** - Structure and content of the web pages.
 - **CSS** - Styling and layout of the pages.
-- **JavaScript** - Interactive features and animations.
-
+  
 ## Setup
 
 To run this project locally:
