@@ -8,8 +8,7 @@ This is the repository for my personal portfolio website, built using HTML, CSS,
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
-- [License](#license)
-
+  
 ## Demo
 
 Visit the live website here: [vivekchudasama-2004.github.io/portfolio](https://vivekchudasama-2004.github.io/portfolio/)
