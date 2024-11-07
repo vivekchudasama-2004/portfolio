@@ -40,4 +40,5 @@ To run this project locally:
 3. Open `index.html` in your browser to view the website.
 
 Alternatively, you can open the project in a code editor to modify or extend the content and design.
+
 ---
